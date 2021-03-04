@@ -1,0 +1,4 @@
+M_top_wear=0
+M_bottom_wear=10
+M_winter_wear=0
+M_foot_wear=0

@@ -1,0 +1,2 @@
+name|address|Category|top_wear|bottom_wear|winter_wear|foot_wear
+Need|fds|M|1|1|1|1
