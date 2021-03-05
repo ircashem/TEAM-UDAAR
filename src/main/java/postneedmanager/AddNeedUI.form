@@ -200,6 +200,9 @@
           <Dimension value="[5, 25]"/>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTxtUserNameKeyReleased"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="jTxtAddress">
       <Properties>
@@ -214,6 +217,7 @@
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTxtAddressActionPerformed"/>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTxtAddressKeyReleased"/>
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="jTxtCategory">

@@ -97,12 +97,27 @@ public class AddDonationUI extends javax.swing.JFrame {
 
         jTxtUserName.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 2));
         jTxtUserName.setMinimumSize(new java.awt.Dimension(5, 25));
+        jTxtUserName.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTxtUserNameActionPerformed(evt);
+            }
+        });
+        jTxtUserName.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                jTxtUserNameKeyReleased(evt);
+            }
+        });
 
         jTxtAddress.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 2));
         jTxtAddress.setMinimumSize(new java.awt.Dimension(5, 25));
         jTxtAddress.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTxtAddressActionPerformed(evt);
+            }
+        });
+        jTxtAddress.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                jTxtAddressKeyReleased(evt);
             }
         });
 
@@ -280,6 +295,7 @@ public class AddDonationUI extends javax.swing.JFrame {
 
     private void jButtonResetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonResetActionPerformed
         
+     jTxtUserName.setText(null);
      jTxtAddress.setText(null);
      jTxtBottom.setText(null);
      jTxtCategory.setText(null);
@@ -288,6 +304,8 @@ public class AddDonationUI extends javax.swing.JFrame {
      jTxtUserName.setText(null);
      jTxtWinter.setText(null);
      
+     jTxtUserName.setBackground(Color.white);
+     jTxtAddress.setBackground(Color.white);
      jTxtCategory.setBackground(Color.white);
      jTxtTop.setBackground(Color.white);
      jTxtBottom.setBackground(Color.white);
@@ -510,6 +528,36 @@ public class AddDonationUI extends javax.swing.JFrame {
         }
         
     }//GEN-LAST:event_jButtonSubmitActionPerformed
+
+    private void jTxtUserNameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTxtUserNameActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTxtUserNameActionPerformed
+
+    private void jTxtUserNameKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTxtUserNameKeyReleased
+        String name = jTxtUserName.getText();
+        if (name.equals("")){
+            jTxtUserName.setBackground(Color.red);
+        }
+        else{
+            jTxtUserName.setBackground(Color.green);
+//            jTxtCategory.setBackground(Color.white);
+        }
+
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTxtUserNameKeyReleased
+
+    private void jTxtAddressKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTxtAddressKeyReleased
+
+        String name = jTxtAddress.getText();
+        if (name.equals("")){
+            jTxtAddress.setBackground(Color.red);
+        }
+        else{
+            jTxtAddress.setBackground(Color.green);
+//            jTxtCategory.setBackground(Color.white);
+        }
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTxtAddressKeyReleased
 
     /**
      * @param args the command line arguments
