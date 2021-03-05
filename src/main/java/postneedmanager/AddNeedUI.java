@@ -518,7 +518,7 @@ public class AddNeedUI extends javax.swing.JFrame {
     }//GEN-LAST:event_jButtonSubmitActionPerformed
 
     private void jTxtUserNameKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTxtUserNameKeyReleased
-
+        // Test Case 2 bug fixed here.
         String name = jTxtUserName.getText();
         if (name.equals("")){
             jTxtUserName.setBackground(Color.red);
@@ -531,7 +531,7 @@ public class AddNeedUI extends javax.swing.JFrame {
     }//GEN-LAST:event_jTxtUserNameKeyReleased
 
     private void jTxtAddressKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTxtAddressKeyReleased
-
+        // Test Case 2 bug fixed here.
         String name = jTxtAddress.getText();
         if (name.equals("")){
             jTxtAddress.setBackground(Color.red);

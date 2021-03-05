@@ -534,7 +534,7 @@ public class AddDonationUI extends javax.swing.JFrame {
     }//GEN-LAST:event_jTxtUserNameActionPerformed
 
     private void jTxtUserNameKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTxtUserNameKeyReleased
-        // Test Case 2 bug fixed here.
+        // Test Case 1 bug fixed here.
         String name = jTxtUserName.getText();
         if (name.equals("")){
             jTxtUserName.setBackground(Color.red);
@@ -548,16 +548,15 @@ public class AddDonationUI extends javax.swing.JFrame {
     }//GEN-LAST:event_jTxtUserNameKeyReleased
 
     private void jTxtAddressKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTxtAddressKeyReleased
-
+        // Test Case 1 bug fixed here.
         String name = jTxtAddress.getText();
         if (name.equals("")){
             jTxtAddress.setBackground(Color.red);
         }
         else{
             jTxtAddress.setBackground(Color.green);
-//            jTxtCategory.setBackground(Color.white);
         }
-        // TODO add your handling code here:
+       
     }//GEN-LAST:event_jTxtAddressKeyReleased
 
     /**
