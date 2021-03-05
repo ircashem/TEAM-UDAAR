@@ -2,6 +2,7 @@ postneedmanager/UpdateNeedUI$5.class
 postneedmanager/ManageNeedUI$4.class
 donatemanager/DisplayDonationUI$4.class
 donatemanager/UpdateDonationUI$5.class
+postneedmanager/AddNeedUI$15.class
 categorizemanager/CategorizeManagerUI.class
 donatemanager/DonationManager.class
 donatemanager/AddDonationUI$2.class
@@ -74,6 +75,7 @@ postneedmanager/UpdateNeedUI$9.class
 donatemanager/AddDonationUI$11.class
 donatemanager/AddDonationUI$14.class
 donatemanager/ManageDonationUI$5.class
+postneedmanager/AddNeedUI$16.class
 postneedmanager/Need.class
 pickupmanager/PickupManager.class
 postneedmanager/ManageNeedUI$5.class
@@ -82,6 +84,7 @@ postneedmanager/UpdateNeedUI$4.class
 donatemanager/RemoveDonationUI$1.class
 donatemanager/UpdateDonationUI$9.class
 donatemanager/UpdateDonationUI$12.class
+donatemanager/AddDonationUI$17.class
 postneedmanager/AddNeedUI$14.class
 postneedmanager/UpdateNeedUI$1.class
 postneedmanager/DisplayNeedUI$2.class
@@ -91,6 +94,7 @@ donatemanager/Donate.class
 donatemanager/DisplayDonationUI$2.class
 postneedmanager/AddNeedUI$10.class
 postneedmanager/DisplayNeedUI$4.class
+donatemanager/AddDonationUI$16.class
 donatemanager/AddDonationUI$1.class
 postneedmanager/AddNeedUI$5.class
 donatemanager/AddDonationUI$7.class
@@ -105,5 +109,6 @@ postneedmanager/AddNeedUI.class
 donatemanager/UpdateDonationUI$7.class
 donatemanager/ManageDonationUI.class
 postneedmanager/UpdateNeedUI.class
+donatemanager/AddDonationUI$15.class
 donatemanager/DisplayDonationUI$3.class
 postneedmanager/UpdateNeedUI$3.class
